@@ -1,10 +1,10 @@
 
-// function AboutPage() {
-//   return (
-//     <div>
-//       About
-//     </div>
-//   )
-// }
+function AboutPage() {
+  return (
+    <div>
+      About
+    </div>
+  )
+}
 
-// export default AboutPage
+export default AboutPage
