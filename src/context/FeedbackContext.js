@@ -48,7 +48,7 @@ const deleteFeedback = (id) => {
 
 const updateFeedback =(id, updItem) => {
     setFeedback(
-        feedback.map((item) => (item.id ==id ? {...item, ... updItem} :item)))
+        feedback.map((item) => (item.id ===id ? {...item, ... updItem} :item)))
 }
 // set item to be updated
 const editFeedback = (item) => {
